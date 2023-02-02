@@ -1,0 +1,50 @@
+*{
+    font-family: sans-serif;
+    padding: 5px;
+    background-repeat: no-repeat;
+    
+    
+    }
+    .white-bg{
+       background-color: rgb(244, 226, 226);
+     
+    }
+    body{
+        background-color: rgb(244, 226, 226);
+    }
+    
+
+table, tr,th,td{
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.align{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    font-family: sans-serif;
+}
+.text{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 50vh;
+}
+button{
+    height: 5vh;
+    width: 25vh;
+    border: none;
+    background-color: rgb(255, 162, 157);
+    border-radius: 24px;
+    
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    
+}
+button:hover{
+    cursor: pointer;
+   background-color: rgb(253, 135, 129);
+}
